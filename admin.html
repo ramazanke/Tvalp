@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="tr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alpica TV · Kanal yönetimi</title><link rel="stylesheet" href="admin.css?v=3"><script src="channel-store.js?v=2" defer></script><script src="admin.js?v=3" defer></script></head>
+<body><main>
+<header><div><span class="eyebrow">ALPICA TV</span><h1>Kanal yönetimi</h1></div><a href="index.html">Oynatıcıyı aç →</a></header>
+<p class="intro">Kendi kanal listeni oluştur. Eklediğin kanallar bu tarayıcıdaki oynatıcıda hemen görünür.</p>
+<p id="source"></p>
+<div class="layout"><section class="panel"><h2 id="formTitle">Kanal ekle</h2>
+<form id="form"><label>Kanal adı<input id="name" required maxlength="150" placeholder="Örn. TRT 1"></label>
+<label>HTTPS M3U8 yayın adresi<input id="url" type="url" required placeholder="https://sunucu.example/canli/index.m3u8"><small>Sunucu tarayıcı erişimine (CORS) izin vermeli. Adresin sonunun .m3u8 olması zorunlu değil; içerik HLS olmalı.</small></label>
+<label>Kategori<input id="group" required maxlength="100" value="Ulusal" list="groupNames"><datalist id="groupNames"></datalist></label>
+<label>Logo adresi <small>İsteğe bağlı · HTTPS</small><input id="logo" type="url" placeholder="https://sunucu.example/logo.png"></label>
+<div class="actions"><button type="submit" id="saveWatch">Bu tarayıcıya kaydet ve izle</button><button type="submit" id="submit">Bu tarayıcıya kaydet</button><button type="button" id="cancel" class="secondary" hidden>Vazgeç</button></div></form></section>
+<section class="panel"><div class="list-heading"><h2>Kanallar <span id="count">0</span></h2></div><div id="list"></div></section></div>
+<section class="panel publish"><h2>GitHub üzerinden tüm cihazlara yayınla</h2><ol class="publish-steps"><li>Listeyi bu tarayıcıya kaydet.</li><li>Aşağıdaki düğmeden <strong>channels.json</strong> dosyasını indir.</li><li>GitHub deponda aynı dosyanın yerine yükle ve değişikliği kaydet.</li></ol><p>GitHub Pages sunucuya kayıt yapmaz. Listeyi indir, depondaki <strong>channels.json</strong> dosyasının yerine yükle. Aynı siteyi açan diğer cihazlar bu dosyayı okur.</p><div class="actions"><button id="download">channels.json indir</button><label class="file-button">JSON içe aktar<input id="import" type="file" accept="application/json,.json"></label><button id="reset" class="secondary">GitHub listesini kullan</button></div><p class="muted">Bu sayfa yerel liste editörüdür; GitHub depona yazma yetkisi veya gizli erişim anahtarı içermez. Yayınladığın kanal adresleri ziyaretçiler tarafından görülebilir.</p></section>
+<p id="message" role="status" aria-live="polite"></p>
+</main></body></html>

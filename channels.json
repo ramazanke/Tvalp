@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "channels": [
+    {
+      "name": "360 TV",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "logo": "https://i.imgur.com/agn47sQ.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "BEYAZ TV",
+      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SHOW TV",
+      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KANAL D",
+      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KANAL 7",
+      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "STAR TV",
+      "url": "https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "NOW TV",
+      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT 1",
+      "url": "http://89.187.191.41/TRT-1-HD-TR/video.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "ATV",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV8",
+      "url": "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8sx8v82ropt3&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "HABERTURK",
+      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT HABER",
+      "url": "https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "CNN TURK",
+      "url": "https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_2_550/playlist.m3u8?&live=true&app=com.cnnturk&st=htljvbPX2R8vvfAY-YUYEw&e=1791036999",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "A HABER",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV2",
+      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "A2",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "NTV",
+      "url": "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT BELGESEL",
+      "url": "https://tv-trtbelgesel.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT COCUK",
+      "url": "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "DIYANET COCUK",
+      "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT TURK",
+      "url": "https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT SPOR",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SPOR YILDIZ",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT GENC",
+      "url": "https://tv-trtgenc.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT TABI",
+      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "HALK TV",
+      "url": "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV4",
+      "url": "https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TJK TV",
+      "url": "https://tjktv-live.tjk.org/tjktv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "360",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TGRT HABER",
+      "url": "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV8.5",
+      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EKOL TV",
+      "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "FLASH HABER",
+      "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT 2",
+      "url": "https://tv-trt2.medya.trt.com.tr/master_1080.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "VAV TV",
+      "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/0.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SLOW KARADENIZ TV",
+      "url": "https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "RIZE TURK TV",
+      "url": "https://yayin.rizeturk.com:3777/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KANAL 53",
+      "url": "https://kanal53.ozelip.com:3448/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "RITIM TV",
+      "url": "https://ritimtv.ozelip.com:3632/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "CINE1",
+      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "MELTEM TV",
+      "url": "https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "NR1 TURK",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV B",
+      "url": "https://ip44.radyotelekomtv.com:3958/stream/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TIVI 6",
+      "url": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "DENIZ POSTASI",
+      "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "ON6 TV",
+      "url": "https://live.euromediacenter.com/on6tvyayin/tracks-v1a1/mono.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KIBRIS TV",
+      "url": "https://play.kibristv.com/stream/hls/stream.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV41",
+      "url": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "LIFE TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "VUSLAT TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KANAL V",
+      "url": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "OLAY TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "BIR TV",
+      "url": "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TEMPO TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "FINANS TURK",
+      "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "MINIKA COCUK",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "MINIKA GO",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "CIFTCI TV",
+      "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "REHBER TV",
+      "url": "https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SABAN TV",
+      "url": "https://tv156.radyotelekom.com.tr:3996/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "VRT TV",
+      "url": "https://vrttv.ozelip.com:3278/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "POWER TURK",
+      "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "POWER TURK TAPTAZE",
+      "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRAKYA TURK",
+      "url": "https://live.euromediacenter.com/trakyaturk/tracks-v1a1/mono.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TGRT HABER",
+      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TELENEWS",
+      "url": "https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/mono.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "BLOMBER TV",
+      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "BENGU TURK",
+      "url": "https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SEMERKAND TV",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_0.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "ULKE TV",
+      "url": "https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "NR1 DANCE",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "NR1 RAP",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/chunklist.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "DAMAR TURK TV",
+      "url": "https://stream.yayintescil.com:3183/hybrid/play.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "24 HD",
+      "url": "https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "A SPOR HD",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV8 HD",
+      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EKOL SPOR HD",
+      "url": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SLOW KARADENIZ FM",
+      "url": "https://dinle.slowkaradenizfm.com:9578/;",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "RIZE TURK",
+      "url": "https://furuncu.kesintisizyayin.com:8044/;",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "CAY FM",
+      "url": "https://dinle.cayfm.net:8010/;",
+      "logo": "",
+      "group": "Ulusal"
+    }
+  ]
+}

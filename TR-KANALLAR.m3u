@@ -1,0 +1,256 @@
+#EXTM3U
+#EXTINF:2620, BEYAZ TV 
+#EXTVLCOPT:network-caching=1000
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:0, SHOW TV 
+#EXTVLCOPT:network-caching=1000
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8
+#EXTINF:0, KANAL D 
+#EXTVLCOPT:network-caching=1000
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8
+#EXTINF:0, KANAL 7 
+#EXTVLCOPT:network-caching=1000
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:0, STAR TV 
+#EXTVLCOPT:network-caching=1000
+https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
+#EXTINF:0, NOW TV
+#EXTVLCOPT:network-caching=1000
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:0, TRT 1
+#EXTVLCOPT:network-caching=1000
+http://89.187.191.41/TRT-1-HD-TR/video.m3u8
+#EXTINF:0, ATV
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:0, TV8
+#EXTVLCOPT:network-caching=1000
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8sx8v82ropt3&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:0, HABERTURK
+#EXTVLCOPT:network-caching=1000
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
+#EXTINF:0, TRT HABER
+#EXTVLCOPT:network-caching=1000
+https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, CNN TURK
+#EXTVLCOPT:network-caching=1000
+https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_2_550/playlist.m3u8?&live=true&app=com.cnnturk&st=htljvbPX2R8vvfAY-YUYEw&e=1791036999
+#EXTINF:0, A HABER
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+#EXTINF:0, TV2
+#EXTVLCOPT:network-caching=1000
+https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8
+#EXTINF:0, A2
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:0, NTV
+#EXTVLCOPT:network-caching=1000
+https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8
+#EXTINF:0, TRT BELGESEL
+#EXTVLCOPT:network-caching=1000
+https://tv-trtbelgesel.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, TRT COCUK
+#EXTVLCOPT:network-caching=1000
+https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, DIYANET COCUK
+#EXTVLCOPT:network-caching=1000
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, TRT TURK
+#EXTVLCOPT:network-caching=1000
+https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, TRT SPOR
+#EXTVLCOPT:network-caching=1000
+https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, SPOR YILDIZ
+#EXTVLCOPT:network-caching=1000
+https://tv-trtspor2.medya.trt.com.tr/master_1080p.m3u8
+#EXTINF:0, TRT GENC
+#EXTVLCOPT:network-caching=1000
+https://tv-trtgenc.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, TRT TABI
+#EXTVLCOPT:network-caching=1000
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8
+#EXTINF:0, HALK TV 
+#EXTVLCOPT:network-caching=1000
+https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
+#EXTINF:0, TV4
+#EXTVLCOPT:network-caching=1000
+https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+#EXTINF:0, TJK TV 
+#EXTVLCOPT:network-caching=1000
+https://tjktv-live.tjk.org/tjktv_1080p.m3u8
+#EXTINF:0, 360 
+#EXTVLCOPT:network-caching=1000
+https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
+#EXTINF:0, TGRT HABER 
+#EXTVLCOPT:network-caching=1000
+https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8
+#EXTINF:0, TV8.5
+#EXTVLCOPT:network-caching=1000
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
+#EXTINF:0, EKOL TV
+#EXTVLCOPT:network-caching=1000
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8
+#EXTINF:0, FLASH HABER
+#EXTVLCOPT:network-caching=1000
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
+#EXTINF:0, TRT 2
+#EXTVLCOPT:network-caching=1000
+https://tv-trt2.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:0, VAV TV
+#EXTVLCOPT:network-caching=1000
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/0.m3u8
+#EXTINF:0, SLOW KARADENIZ TV 
+#EXTVLCOPT:network-caching=1000
+https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8
+#EXTINF:0, RIZE TURK TV 
+#EXTVLCOPT:network-caching=1000
+https://yayin.rizeturk.com:3777/hybrid/play.m3u8
+#EXTINF:0, KANAL 53
+#EXTVLCOPT:network-caching=1000
+https://kanal53.ozelip.com:3448/hybrid/play.m3u8
+#EXTINF:0, RITIM TV
+#EXTVLCOPT:network-caching=1000
+https://ritimtv.ozelip.com:3632/hybrid/play.m3u8
+#EXTINF:0, CINE1 
+#EXTVLCOPT:network-caching=1000
+https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
+#EXTINF:0, MELTEM TV
+#EXTVLCOPT:network-caching=1000
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+#EXTINF:0, NR1 TURK
+#EXTVLCOPT:network-caching=1000
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8
+#EXTINF:0, TV B 
+#EXTVLCOPT:network-caching=1000
+https://ip44.radyotelekomtv.com:3958/stream/play.m3u8
+#EXTINF:0, TIVI 6 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:0, DENIZ POSTASI 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8
+#EXTINF:0, ON6 TV 
+#EXTVLCOPT:network-caching=1000
+https://live.euromediacenter.com/on6tvyayin/tracks-v1a1/mono.m3u8
+#EXTINF:0, KIBRIS TV 
+#EXTVLCOPT:network-caching=1000
+https://play.kibristv.com/stream/hls/stream.m3u8
+#EXTINF:0, TV41 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8
+#EXTINF:0, LIFE TV 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
+#EXTINF:0, VUSLAT TV 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/chunks.m3u8
+#EXTINF:0, KANAL V 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/chunks.m3u8
+#EXTINF:0, OLAY TV 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8
+#EXTINF:0, BIR TV 
+#EXTVLCOPT:network-caching=1000
+https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8
+#EXTINF:0, TEMPO TV 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+#EXTINF:0, FINANS TURK 
+#EXTVLCOPT:network-caching=1000
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:0, MINIKA COCUK 
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
+#EXTINF:0, MINIKA GO 
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
+#EXTINF:0, CIFTCI TV 
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:0, REHBER TV 
+#EXTVLCOPT:network-caching=1000
+https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
+#EXTINF:0, SABAN TV 
+#EXTVLCOPT:network-caching=1000
+https://tv156.radyotelekom.com.tr:3996/hybrid/play.m3u8
+#EXTINF:0, VRT TV 
+#EXTVLCOPT:network-caching=1000
+https://vrttv.ozelip.com:3278/hybrid/play.m3u8
+#EXTINF:0, POWER TURK
+#EXTVLCOPT:network-caching=1000
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:0, POWER TURK TAPTAZE
+#EXTVLCOPT:network-caching=1000
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:0, TRAKYA TURK
+#EXTVLCOPT:network-caching=1000
+https://live.euromediacenter.com/trakyaturk/tracks-v1a1/mono.m3u8
+#EXTINF:0, TGRT HABER
+#EXTVLCOPT:network-caching=1000
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:0, TELENEWS
+#EXTVLCOPT:network-caching=1000
+https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/mono.m3u8
+#EXTINF:0, BLOMBER TV
+#EXTVLCOPT:network-caching=1000
+https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8
+#EXTINF:0, BENGU TURK
+#EXTVLCOPT:network-caching=1000
+https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8
+#EXTINF:0, SEMERKAND TV
+#EXTVLCOPT:network-caching=1000
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_0.m3u8
+#EXTINF:0, ULKE TV 
+#EXTVLCOPT:network-caching=1000
+https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
+#EXTINF:0, NR1 DANCE
+#EXTVLCOPT:network-caching=1000
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8
+#EXTINF:0, NR1 RAP
+#EXTVLCOPT:network-caching=1000
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/chunklist.m3u8
+#EXTINF:0, DAMAR TURK TV
+#EXTVLCOPT:network-caching=1000
+https://stream.yayintescil.com:3183/hybrid/play.m3u8
+#EXTINF:0, 24 HD
+#EXTVLCOPT:network-caching=1000
+https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
+#EXTINF:0, 360 HD
+#EXTVLCOPT:network-caching=1000
+https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8
+#EXTINF:0, TV4 HD
+#EXTVLCOPT:network-caching=1000
+https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+#EXTINF:0, FLASH HABER HD
+#EXTVLCOPT:network-caching=1000
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_1080p.m3u8
+#EXTINF:0, SHOW TV HD
+#EXTVLCOPT:network-caching=1000
+https://rmtftbjlne.turknet.ercdn.net:443/bpeytmnqyp/showtv/showtv_1080p.m3u8
+#EXTINF:0, A SPOR HD
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+#EXTINF:0, A2 HD
+#EXTVLCOPT:network-caching=1000
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:0, TV8 HD
+#EXTVLCOPT:network-caching=1000
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8
+#EXTINF:0, KANAL 7 HD
+#EXTVLCOPT:network-caching=1000
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:0, EKOL SPOR HD
+#EXTVLCOPT:network-caching=1000
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8
+#EXTINF:0, SLOW KARADENIZ FM
+#EXTVLCOPT:network-caching=1000
+https://dinle.slowkaradenizfm.com:9578/;
+#EXTINF:0, RIZE TURK
+#EXTVLCOPT:network-caching=1000
+https://furuncu.kesintisizyayin.com:8044/;
+#EXTINF:0, CAY FM
+#EXTVLCOPT:network-caching=1000
+https://dinle.cayfm.net:8010/;
