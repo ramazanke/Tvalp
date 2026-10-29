@@ -4,43 +4,43 @@
     {
       "name": "TRT 1",
       "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/aae0367d-c9ab-45a2-8518-0968cd5d2f55.png",
       "group": "Ulusal"
     },
     {
       "name": "ATV",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
-      "logo": "",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+      "logo": "https://assets.uzunmuhalefet.com/logos/ff506778-7000-4a3b-8376-994a8f32058b.png",
       "group": "Ulusal"
     },
     {
       "name": "SHOW TV",
       "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_720p.m3u8",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/49ce7689-87c7-4a06-80a7-f5cdf9a19481.png",
       "group": "Ulusal"
     },
     {
       "name": "KANAL D",
       "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/e540b948-8fba-4163-ac65-1d4e8f8bf1bc.png",
       "group": "Ulusal"
     },
     {
       "name": "STAR TV",
       "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=88jhb6leqiih&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/8bd73113-9389-419a-9341-55c3e82469b5.png",
       "group": "Ulusal"
     },
     {
       "name": "NOW TV",
       "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/e540b948-8fba-4163-ac65-1d4e8f8bf1bc.png",
       "group": "Ulusal"
     },
     {
       "name": "TV8",
       "url": "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8sx8v82ropt3&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
-      "logo": "",
+      "logo": "https://assets.uzunmuhalefet.com/logos/8a33c746-0aff-44e0-9f1a-1bb3515de3ad.png",
       "group": "Ulusal"
     },
     {
