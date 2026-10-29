@@ -2,20 +2,20 @@
   "version": 1,
   "channels": [
     {
-      "name": "360 TV",
-      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
-      "logo": "https://i.imgur.com/agn47sQ.png",
+      "name": "TRT 1",
+      "url": "http://89.187.191.41/TRT-1-HD-TR/video.m3u8",
+      "logo": "",
       "group": "Ulusal"
     },
     {
-      "name": "BEYAZ TV",
-      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8",
-      "logo": "https://i.postimg.cc/Hx0FGv5V/Beyaz-tv-tr.webp",
+      "name": "ATV",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+      "logo": "",
       "group": "Ulusal"
     },
     {
       "name": "SHOW TV",
-      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8",
+      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_720p.m3u8",
       "logo": "",
       "group": "Ulusal"
     },
@@ -23,12 +23,6 @@
       "name": "KANAL D",
       "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
       "logo": "",
-      "group": "Ulusal"
-    },
-    {
-      "name": "KANAL 7",
-      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
-      "logo": "https://i.postimg.cc/X7gNKxzY/367-3675294-kanal-7-avrupa-logo-hd-png-download-removebg-preview.png",
       "group": "Ulusal"
     },
     {
@@ -44,21 +38,33 @@
       "group": "Ulusal"
     },
     {
-      "name": "TRT 1",
-      "url": "http://89.187.191.41/TRT-1-HD-TR/video.m3u8",
-      "logo": "",
-      "group": "Ulusal"
-    },
-    {
-      "name": "ATV",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
-      "logo": "",
-      "group": "Ulusal"
-    },
-    {
       "name": "TV8",
       "url": "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8sx8v82ropt3&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
       "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "BEYAZ TV",
+      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8",
+      "logo": "https://i.postimg.cc/Hx0FGv5V/Beyaz-tv-tr.webp",
+      "group": "Ulusal"
+    },
+    {
+      "name": "KANAL 7",
+      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
+      "logo": "https://i.postimg.cc/X7gNKxzY/367-3675294-kanal-7-avrupa-logo-hd-png-download-removebg-preview.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV2",
+      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
+      "logo": "",
+      "group": "Ulusal"
+    },
+    {
+      "name": "360 TV",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "logo": "https://i.imgur.com/agn47sQ.png",
       "group": "Ulusal"
     },
     {
@@ -84,12 +90,6 @@
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8",
       "logo": "",
       "group": "Haber"
-    },
-    {
-      "name": "TV2",
-      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
-      "logo": "",
-      "group": "Ulusal"
     },
     {
       "name": "A2",
