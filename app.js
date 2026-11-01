@@ -6,8 +6,9 @@ const channels = () => groups[groupIndex]?.channels || [];
 const toHls = u => /^https?:\/\/[^\/?#]+\/[^\/?#]+\/[^\/?#]+\/\d+$/.test(u) ? u + '.m3u8' : u;
 const normalize = s => s.toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 function wake() { clearTimeout(menuTimer); if (menu) menuTimer = setTimeout(closeMenu, 8000); document.body.classList.remove('quiet'); clearTimeout(hideTimer); if (!menu && $('welcome').hidden && !playbackFailed) hideTimer = setTimeout(() => document.body.classList.add('quiet'), 3000); }
-function closeMenu() { clearTimeout(menuTimer); menu = null; $('categories').hidden = true; $('strip').hidden = true; document.body.classList.remove('menu'); wake(); }
-function showMenu(type) { if (!groups.length) return; menu = type; cursor = type === 'categories' ? groupIndex : channelIndex; $('categories').hidden = type !== 'categories'; $('strip').hidden = type !== 'channels'; document.body.classList.add('menu'); wake(); renderMenu(); }
+function syncTouchMenus() { $('touchCategories').setAttribute('aria-expanded', String(menu === 'categories')); $('touchChannels').setAttribute('aria-expanded', String(menu === 'channels')); }
+function closeMenu() { clearTimeout(menuTimer); menu = null; syncTouchMenus(); $('categories').hidden = true; $('strip').hidden = true; document.body.classList.remove('menu'); wake(); }
+function showMenu(type) { if (!groups.length) return; menu = type; syncTouchMenus(); cursor = type === 'categories' ? groupIndex : channelIndex; $('categories').hidden = type !== 'categories'; $('strip').hidden = type !== 'channels'; document.body.classList.add('menu'); wake(); renderMenu(); }
 function renderMenu() {
   const list = menu === 'categories' ? $('categoryList') : $('channelList'); list.replaceChildren();
   const items = menu === 'categories' ? groups : channels(); $('stripTitle').textContent = groups[groupIndex].name;
@@ -85,7 +86,7 @@ async function fullscreen(automatic = false) {
 function openingGesture(event) {
   if (!openingFullscreenPending || isFullscreen()) return;
   if (event.type === 'keydown' && !['Enter', 'Accept', 'Select', ' '].includes(event.key) && event.keyCode !== 13) return;
-  if (event.target && event.target.closest && event.target.closest('a')) return;
+  if (event.target && event.target.closest && event.target.closest('a,button,input,select,textarea') && !event.target.closest('#start,#fullscreen')) return;
   fullscreen(true);
 }
 document.addEventListener('keydown', openingGesture, true);
@@ -116,7 +117,24 @@ document.addEventListener('keydown', event => {
 function syncFullscreen() { document.body.classList.toggle('cinema', isFullscreen()); if (isFullscreen()) { openingFullscreenPending = false; closeMenu(); } }
 document.addEventListener('fullscreenchange', syncFullscreen);
 document.addEventListener('webkitfullscreenchange', syncFullscreen);
-document.addEventListener('mousemove', () => { if (menu || !document.fullscreenElement) wake(); }); video.addEventListener('click', () => showMenu('channels'));
+document.addEventListener('mousemove', () => { if (menu || !document.fullscreenElement) wake(); }); video.addEventListener('click', () => {
+  if (window.matchMedia('(any-pointer: coarse)').matches) {
+    if (menu) closeMenu(); else wake();
+  } else showMenu('channels');
+});
+function changeTouchChannel(delta) {
+  if (!channels().length) return;
+  channelIndex = (channelIndex + delta + channels().length) % channels().length;
+  play();
+}
+$('touchCategories').onclick = () => showMenu('categories');
+$('touchChannels').onclick = () => showMenu('channels');
+$('touchPrevious').onclick = () => changeTouchChannel(-1);
+$('touchNext').onclick = () => changeTouchChannel(1);
+$('closeCategories').onclick = closeMenu;
+$('closeChannels').onclick = closeMenu;
+document.addEventListener('pointerdown', wake, { passive: true });
+if (window.AlpicaNative) $('touchControls').hidden = true;
 function clock() { $('clock').textContent = new Date().toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }); } clock(); setInterval(clock, 10000);
 let loadGeneration = 0, loadedListSignature = null;
 async function loadChannels() {
