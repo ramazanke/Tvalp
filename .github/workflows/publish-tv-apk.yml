@@ -22,11 +22,12 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/alpica-apk"
-          gh run download 41509240241 --name AlpicaTV-AndroidTV-APK --dir "$RUNNER_TEMP/alpica-apk"
-          mv "$RUNNER_TEMP/alpica-apk/app-debug.apk" "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.0.1.apk"
-          if ! gh release view android-tv-v1.0.1 >/dev/null 2>&1; then
-            gh release create android-tv-v1.0.1 "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.0.1.apk" \
-              --target 651b69bf9cafcfc3538dba642bdc88f13a073903 \
-              --title "Alpica TV 1.0.1 (test)" --prerelease \
-              --notes "PHP ve uzantısız HLS yayınları için bir kez HLS yeniden deneme eklendi. Birim testleri, APK derlemesi ve lint kontrolleri geçti. Gerçek TV testi yapılmadı. Bu test APK'sıdır; imza farklılığı nedeniyle eski test sürümünün kaldırılması gerekebilir."
+          gh run watch 41511406924 --exit-status
+          gh run download 41511406924 --name AlpicaTV-AndroidTV-APK --dir "$RUNNER_TEMP/alpica-apk"
+          mv "$RUNNER_TEMP/alpica-apk/app-debug.apk" "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.1.0.apk"
+          if ! gh release view android-tv-v1.1.0 >/dev/null 2>&1; then
+            gh release create android-tv-v1.1.0 "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.1.0.apk" \
+              --target 7525c72d3b03fc2e945458adaca6851f5dcfeb50 \
+              --title "Alpica TV 1.1.0 (test)" --prerelease \
+              --notes "Android telefon ve Android TV için tek APK. Telefonda kategori, kanal, önceki/sonraki ve duraklatma düğmeleri; TV’de kumanda kontrolü. Telefonda ekran döndürme desteklenir. PHP/HLS düzeltmesi korunur. Otomatik testler ve derleme tamamlandıktan sonra yayınlanır; gerçek cihaz testi yapılmadı. Test imzası farklıysa önceki APK’nın kaldırılması gerekebilir."
           fi
