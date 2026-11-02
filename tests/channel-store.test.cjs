@@ -102,3 +102,11 @@ test('source storage failures do not partially overwrite the previous selection'
 test('web scripts compile',()=>{
   for(const name of ['channel-store.js','settings.js','app.js','admin.js'])new vm.Script(fs.readFileSync(path.join(__dirname,'..',name),'utf8'),{filename:name});
 });
+
+test('a downloaded M3U can be imported locally when CORS blocks remote fetching',async()=>{
+  const {store,state}=fixture();
+  store.save(store.parseList(m3u,'https://lists.example/playlist.php'));
+  state.fail=true;
+  const result=await store.load();
+  assert.equal(result.local,true);assert.equal(result.channels.length,2);assert.equal(result.channels[0].name,'Kanal A');
+});

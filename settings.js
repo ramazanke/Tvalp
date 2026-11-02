@@ -35,3 +35,21 @@ $('githubSource').onclick=async()=>{
   catch(error){message(error.message+' Önceki kaynak korunuyor.');}finally{busy(false);}
 };
 renderSource();
+
+$('openSource').onclick=()=>{
+  try{window.open(ChannelStore.sourceUrl($('sourceUrl').value),'_blank','noopener,noreferrer');}
+  catch(error){message(error.message);}
+};
+$('sourceFile').onchange=async event=>{
+  const file=event.target.files[0];if(!file)return;
+  busy(true);message('Dosya okunuyor…');
+  try{
+    if(file.size>5*1024*1024)throw new Error('Dosya 5 MB sınırını aşıyor.');
+    let base=location.href;
+    try{if($('sourceUrl').value.trim())base=ChannelStore.sourceUrl($('sourceUrl').value);}catch{}
+    const data=ChannelStore.parseList(await file.text(),base);
+    ChannelStore.save(data);
+    renderSource();message(resultText(data)+' Dosyadan bu tarayıcıya aktarıldı. Oynatıcıya dönerek izleyebilirsin; bu liste uzaktan otomatik güncellenmez.');
+  }catch(error){message(error.message+' Önceki kaynak korunuyor.');}
+  finally{event.target.value='';busy(false);}
+};
