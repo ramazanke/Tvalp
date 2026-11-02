@@ -1,0 +1,45 @@
+name: Stream diagnostics
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/stream-diagnostics.yml'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Inspect HTTP and HTTPS response formats
+        shell: python
+        run: |
+          import concurrent.futures, json, re, urllib.request, urllib.error, urllib.parse
+          def inspect(scheme):
+              url = scheme + '://sultanios.alwaysdata.net/vavo.php?ID=1221669131'
+              request = urllib.request.Request(url, headers={
+                  'User-Agent': 'AlpicaTV/1.0 AndroidTV',
+                  'Origin': 'https://ramazanke.github.io',
+                  'Accept': '*/*'})
+              try:
+                  try:
+                      response = urllib.request.urlopen(request, timeout=20)
+                  except urllib.error.HTTPError as error:
+                      response = error
+                  with response:
+                      chunk = response.read(1024)
+                      final = urllib.parse.urlsplit(response.geturl())
+                      decoded = chunk.decode('utf-8', errors='replace').strip()
+                      title = re.search(r'<title[^>]*>(.*?)</title>', decoded, re.I|re.S)
+                      result = dict(request_scheme=scheme, status=response.status,
+                          final_scheme=final.scheme, final_host=final.hostname,
+                          content_type=response.headers.get('Content-Type'),
+                          cors=response.headers.get('Access-Control-Allow-Origin'),
+                          bytes_sampled=len(chunk), is_hls=decoded.startswith('#EXTM3U'),
+                          looks_html=bool(re.search(r'<(?:!doctype|html|head|body)', decoded, re.I)),
+                          html_title=title.group(1).strip()[:100] if title else None)
+                      print(json.dumps(result, ensure_ascii=False), flush=True)
+              except Exception as error:
+                  print(json.dumps(dict(request_scheme=scheme,error=type(error).__name__,detail=str(error)[:180])), flush=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+              list(pool.map(inspect, ['http', 'https']))
