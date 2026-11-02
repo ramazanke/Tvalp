@@ -19,7 +19,6 @@ jobs:
               url = scheme + '://sultanios.alwaysdata.net/vavo.php?ID=1221669131'
               request = urllib.request.Request(url, headers={
                   'User-Agent': 'AlpicaTV/1.0 AndroidTV',
-                  'Origin': 'https://ramazanke.github.io',
                   'Accept': '*/*'})
               try:
                   try:
@@ -43,3 +42,18 @@ jobs:
                   print(json.dumps(dict(request_scheme=scheme,error=type(error).__name__,detail=str(error)[:180])), flush=True)
           with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
               list(pool.map(inspect, ['http', 'https']))
+      - name: Verify stream payload with ffprobe when available
+        shell: python
+        run: |
+          import json, shutil, subprocess
+          if not shutil.which('ffprobe'):
+              print(json.dumps({'media_probe':'unavailable'}))
+          else:
+              try:
+                  result = subprocess.run(['ffprobe','-v','quiet','-rw_timeout','15000000','-show_streams','-of','json',
+                      'http://sultanios.alwaysdata.net/vavo.php?ID=1221669131'], capture_output=True, text=True, timeout=35)
+                  payload = json.loads(result.stdout or '{}')
+                  streams = [{k:s.get(k) for k in ('codec_type','codec_name','width','height')} for s in payload.get('streams', [])]
+                  print(json.dumps({'media_probe_returncode':result.returncode,'streams':streams}))
+              except Exception as error:
+                  print(json.dumps({'media_probe_error':type(error).__name__}))

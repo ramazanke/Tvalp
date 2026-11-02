@@ -28,7 +28,7 @@ jobs:
           gradle-version: '8.9'
       - name: Build installable debug APK
         working-directory: android-tv
-        run: gradle --no-daemon :app:assembleDebug :app:lintDebug
+        run: gradle --no-daemon :app:testDebugUnitTest :app:assembleDebug :app:lintDebug
       - uses: actions/upload-artifact@v4
         with:
           name: AlpicaTV-AndroidTV-APK

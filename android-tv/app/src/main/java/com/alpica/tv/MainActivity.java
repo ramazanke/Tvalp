@@ -52,6 +52,8 @@ public final class MainActivity extends Activity {
     private boolean bridgeReady, started, resumePlayback, dialogVisible;
     private long activeToken = -1;
     private int retries;
+    private Uri activeStreamUri;
+    private boolean hlsFallbackTried;
     private final Runnable watchdog = () -> {
         if (!bridgeReady && !isFinishing()) showProblem("Siteye bağlanılamadı veya oynatıcı arayüzü hazır değil. İnterneti ve Android System WebView güncellemesini kontrol edin.");
     };
@@ -83,6 +85,19 @@ public final class MainActivity extends Activity {
                 if (playing) { retries = 0; notifySite("playing", "CANLI"); }
             }
             @Override public void onPlayerError(PlaybackException error) {
+                // Script/extensionless URLs can contain HLS even when the URI has no .m3u8 suffix.
+                if (activeToken >= 0 && activeStreamUri != null && StreamFormatPolicy.shouldTryHls(
+                        activeStreamUri.getPath(), hlsFallbackTried,
+                        error.errorCode == PlaybackException.ERROR_CODE_PARSING_CONTAINER_UNSUPPORTED)) {
+                    hlsFallbackTried = true;
+                    retries = 0;
+                    notifySite("buffering", "Yayın HLS olarak yeniden açılıyor…");
+                    player.setMediaItem(new MediaItem.Builder().setUri(activeStreamUri)
+                            .setMimeType(MimeTypes.APPLICATION_M3U8).build());
+                    player.prepare();
+                    player.setPlayWhenReady(started);
+                    return;
+                }
                 // Retry only transport errors. Decoder/format errors need another source or device codec.
                 if (error.errorCode >= 2000 && error.errorCode < 3000 && retries++ < 2) {
                     final long token = activeToken;
@@ -137,6 +152,7 @@ public final class MainActivity extends Activity {
             @Override public void onPageStarted(WebView view, String url, android.graphics.Bitmap icon) {
                 bridgeReady = false;
                 activeToken = -1;
+                activeStreamUri = null;
                 player.stop();
                 loading.setVisibility(View.VISIBLE);
                 handler.removeCallbacks(watchdog);
@@ -178,6 +194,8 @@ public final class MainActivity extends Activity {
                 Uri uri = Uri.parse(url);
                 if (url.length() > 16384 || uri.getHost() == null || !("https".equals(uri.getScheme()) || "http".equals(uri.getScheme()))) return;
                 activeToken = message.optLong("token", -1);
+                activeStreamUri = uri;
+                hlsFallbackTried = false;
                 retries = 0;
                 MediaItem.Builder item = new MediaItem.Builder().setUri(uri);
                 String path = uri.getPath() == null ? "" : uri.getPath().toLowerCase(java.util.Locale.ROOT);
@@ -188,7 +206,7 @@ public final class MainActivity extends Activity {
                 player.setPlayWhenReady(started);
                 resumePlayback = true;
                 break;
-            case "stop": activeToken = -1; resumePlayback = false; player.stop(); break;
+            case "stop": activeToken = -1; activeStreamUri = null; resumePlayback = false; player.stop(); break;
             case "resume": if (started && message.optLong("token", -1) == activeToken) player.play(); break;
         }
     }
