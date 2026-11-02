@@ -9,19 +9,19 @@
     },
     {
       "name": "ATV",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8",
       "logo": "https://assets.uzunmuhalefet.com/logos/ff506778-7000-4a3b-8376-994a8f32058b.png",
       "group": "Ulusal"
     },
     {
       "name": "SHOW TV",
-      "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
+      "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?app=showtv_web",
       "logo": "https://assets.uzunmuhalefet.com/logos/49ce7689-87c7-4a06-80a7-f5cdf9a19481.png",
       "group": "Ulusal"
     },
     {
       "name": "KANAL D",
-      "url": "http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8",
       "logo": "https://assets.uzunmuhalefet.com/logos/e540b948-8fba-4163-ac65-1d4e8f8bf1bc.png",
       "group": "Ulusal"
     },
