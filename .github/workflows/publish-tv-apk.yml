@@ -1,0 +1,32 @@
+name: Publish TV APK
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/publish-tv-apk.yml'
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Publish tested APK download
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/alpica-apk"
+          gh run download 41509240241 --name AlpicaTV-AndroidTV-APK --dir "$RUNNER_TEMP/alpica-apk"
+          mv "$RUNNER_TEMP/alpica-apk/app-debug.apk" "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.0.1.apk"
+          if ! gh release view android-tv-v1.0.1 >/dev/null 2>&1; then
+            gh release create android-tv-v1.0.1 "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.0.1.apk" \
+              --target 651b69bf9cafcfc3538dba642bdc88f13a073903 \
+              --title "Alpica TV 1.0.1 (test)" --prerelease \
+              --notes "PHP ve uzantısız HLS yayınları için bir kez HLS yeniden deneme eklendi. Birim testleri, APK derlemesi ve lint kontrolleri geçti. Gerçek TV testi yapılmadı. Bu test APK'sıdır; imza farklılığı nedeniyle eski test sürümünün kaldırılması gerekebilir."
+          fi
