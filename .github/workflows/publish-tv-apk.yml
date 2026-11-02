@@ -27,7 +27,7 @@ jobs:
           mv "$RUNNER_TEMP/alpica-apk/app-debug.apk" "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.1.0.apk"
           if ! gh release view android-tv-v1.1.0 >/dev/null 2>&1; then
             gh release create android-tv-v1.1.0 "$RUNNER_TEMP/alpica-apk/AlpicaTV-1.1.0.apk" \
-              --target 7525c72d3b03fc2e945458adaca6851f5dcfeb50 \
+              --target "$GITHUB_SHA" \
               --title "Alpica TV 1.1.0 (test)" --prerelease \
               --notes "Android telefon ve Android TV için tek APK. Telefonda kategori, kanal, önceki/sonraki ve duraklatma düğmeleri; TV’de kumanda kontrolü. Telefonda ekran döndürme desteklenir. PHP/HLS düzeltmesi korunur. Otomatik testler ve derleme tamamlandıktan sonra yayınlanır; gerçek cihaz testi yapılmadı. Test imzası farklıysa önceki APK’nın kaldırılması gerekebilir."
           fi
