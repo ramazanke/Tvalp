@@ -22,6 +22,7 @@
         'body.native-mobile #nativeTouchControls{position:fixed;z-index:3;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);display:flex;gap:5px;padding:6px;border-radius:15px;background:#101b2df0;border:1px solid #ffffff30;max-width:calc(100vw - 16px);box-sizing:border-box;touch-action:manipulation}' +
         'body.native-mobile #nativeTouchControls button{min-width:42px;min-height:48px;padding:9px 10px;font-size:13px;white-space:nowrap}' +
         'body.native-mobile #nativeCategories{color:#42e6bf}' +
+        'body.native-mobile #info{bottom:110px!important}' +
         'body.native-mobile.menu #nativeTouchControls{display:none}' +
         'body.native-mobile.quiet #nativeTouchControls button:not(#nativeCategories){display:none}' +
         'body.native-mobile .menu-close{display:block!important}' +
