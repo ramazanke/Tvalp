@@ -26,6 +26,8 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
+      - name: Test TV and mobile bridge behavior
+        run: node android-tv/tools/test-bridge.cjs
       - name: Build installable debug APK
         working-directory: android-tv
         run: gradle --no-daemon :app:testDebugUnitTest :app:assembleDebug :app:lintDebug

@@ -5,7 +5,7 @@
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <application android:theme="@style/AppTheme" android:label="Alpica TV" android:icon="@drawable/ic_launcher" android:banner="@drawable/tv_banner" android:allowBackup="false" android:usesCleartextTraffic="true" android:enableOnBackInvokedCallback="false">
-        <activity android:name=".MainActivity" android:exported="true" android:screenOrientation="landscape" android:configChanges="orientation|screenSize|keyboardHidden" android:launchMode="singleTop">
+        <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" android:launchMode="singleTop">
             <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LEANBACK_LAUNCHER" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
         </activity>
     </application>

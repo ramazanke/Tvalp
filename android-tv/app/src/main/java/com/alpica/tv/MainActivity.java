@@ -2,6 +2,9 @@ package com.alpica.tv;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.UiModeManager;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
@@ -54,12 +57,16 @@ public final class MainActivity extends Activity {
     private int retries;
     private Uri activeStreamUri;
     private boolean hlsFallbackTried;
+    private boolean television;
     private final Runnable watchdog = () -> {
         if (!bridgeReady && !isFinishing()) showProblem("Siteye bağlanılamadı veya oynatıcı arayüzü hazır değil. İnterneti ve Android System WebView güncellemesini kontrol edin.");
     };
 
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        UiModeManager modes = (UiModeManager) getSystemService(UI_MODE_SERVICE);
+        television = modes != null && modes.getCurrentModeType() == Configuration.UI_MODE_TYPE_TELEVISION;
+        setRequestedOrientation(television ? ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE : ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_main);
         fullscreen();
@@ -142,7 +149,7 @@ public final class MainActivity extends Activity {
                     try { handleMessage(new JSONObject(payload)); } catch (Exception ignored) { }
                 });
         if (WebViewFeature.isFeatureSupported(WebViewFeature.DOCUMENT_START_SCRIPT)) {
-            WebViewCompat.addDocumentStartJavaScript(web, bridgeScript, Collections.singleton(ORIGIN));
+            WebViewCompat.addDocumentStartJavaScript(web, configuredBridgeScript(), Collections.singleton(ORIGIN));
         }
         web.setWebViewClient(new WebViewClient() {
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -159,7 +166,7 @@ public final class MainActivity extends Activity {
                 handler.postDelayed(watchdog, 25000);
             }
             @Override public void onPageFinished(WebView view, String url) {
-                if (isPlayerPage(url)) web.evaluateJavascript(bridgeScript, null);
+                if (isPlayerPage(url)) web.evaluateJavascript(configuredBridgeScript(), null);
             }
             @Override public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
                 if (request.isForMainFrame()) showProblem("Site açılamadı. İnternet bağlantısını kontrol edin.");
@@ -170,6 +177,15 @@ public final class MainActivity extends Activity {
         });
         web.requestFocus();
         web.loadUrl(SITE);
+    }
+
+    private String configuredBridgeScript() {
+        return "window.AlpicaDevice = { isTv: " + television + " };\n" + bridgeScript;
+    }
+
+    @Override public void onConfigurationChanged(Configuration configuration) {
+        super.onConfigurationChanged(configuration);
+        fullscreen();
     }
 
     private boolean isPlayerPage(String value) {
@@ -205,6 +221,12 @@ public final class MainActivity extends Activity {
                 player.prepare();
                 player.setPlayWhenReady(started);
                 resumePlayback = true;
+                break;
+            case "togglePause":
+                if (started) {
+                    if (player.getPlayWhenReady()) { player.pause(); notifySite("paused", "Duraklatıldı"); }
+                    else player.play();
+                }
                 break;
             case "stop": activeToken = -1; activeStreamUri = null; resumePlayback = false; player.stop(); break;
             case "resume": if (started && message.optLong("token", -1) == activeToken) player.play(); break;
