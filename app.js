@@ -134,7 +134,7 @@ $('touchNext').onclick = () => changeTouchChannel(1);
 $('closeCategories').onclick = closeMenu;
 $('closeChannels').onclick = closeMenu;
 document.addEventListener('pointerdown', wake, { passive: true });
-if (window.AlpicaNative) $('touchControls').hidden = true;
+if (window.AlpicaNative) { $('touchControls').hidden = true; document.querySelectorAll('[data-web-settings]').forEach(el => el.hidden = true); }
 function clock() { $('clock').textContent = new Date().toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' }); } clock(); setInterval(clock, 10000);
 let loadGeneration = 0, loadedListSignature = null;
 async function loadChannels() {
@@ -143,7 +143,7 @@ async function loadChannels() {
     const data = await ChannelStore.load();
     if (generation !== loadGeneration) return;
     const signature = JSON.stringify(data.channels);
-    $('listState').textContent = data.channels.length + ' kanal · ' + (data.local ? 'Bu tarayıcıdaki liste' : 'GitHub listesi');
+    $('listState').textContent = data.channels.length + ' kanal · ' + (data.stale ? 'Son başarılı liste · kaynak erişilemiyor' : data.source === 'remote' ? 'Adres listesi' : data.local ? 'Bu tarayıcıdaki liste' : 'GitHub listesi');
     if (signature === loadedListSignature) return;
     const previous = channels()[channelIndex];
     const map = new Map();
@@ -172,7 +172,7 @@ async function loadChannels() {
     failPlayback(error.message + ' Kanal yönetimi sayfasından liste oluşturun.');
   }
 }
-window.addEventListener('storage', event => { if (event.key === ChannelStore.key || event.key === null) loadChannels(); });
+window.addEventListener('storage', event => { if (event.key === ChannelStore.key || event.key === ChannelStore.sourceKey || event.key === null) loadChannels(); });
 loadChannels();
 
 // Returning from the editor may restore this page from the browser's page cache.

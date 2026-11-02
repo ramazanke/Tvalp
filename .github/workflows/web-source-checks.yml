@@ -1,0 +1,40 @@
+name: Web source settings checks
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'channel-store.js'
+      - 'settings.*'
+      - 'app.js'
+      - 'admin.*'
+      - 'index.html'
+      - 'tests/**'
+      - '.github/workflows/web-source-checks.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test source selection and list parsing
+        run: node --test tests/channel-store.test.cjs
+      - name: Inspect the supplied list endpoint
+        shell: python
+        run: |
+          import json, re, urllib.request, urllib.error, urllib.parse
+          request=urllib.request.Request('https://sultanios.alwaysdata.net/vavoTV.php?ID=Turkey',
+              headers={'User-Agent':'Mozilla/5.0','Origin':'https://ramazanke.github.io','Accept':'*/*'})
+          try:
+              try: response=urllib.request.urlopen(request,timeout=20)
+              except urllib.error.HTTPError as error: response=error
+              with response:
+                  data=response.read(1024*1024).decode('utf-8',errors='replace').strip()
+                  final=urllib.parse.urlsplit(response.geturl())
+                  print(json.dumps({'status':response.status,'final_scheme':final.scheme,'final_host':final.hostname,
+                      'content_type':response.headers.get('Content-Type'),'cors':response.headers.get('Access-Control-Allow-Origin'),
+                      'm3u_header':data.startswith('#EXTM3U'),'sampled_channel_records':len(re.findall(r'^#EXTINF:',data,re.M)),
+                      'is_hls':bool(re.search(r'^#EXT-X-',data,re.M)), 'looks_html':data.startswith('<')},ensure_ascii=False))
+          except Exception as error:
+              print(json.dumps({'endpoint_error':type(error).__name__}))

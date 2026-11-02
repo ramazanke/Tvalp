@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090f1c"><title>Alpica TV · Ayarlar</title><link rel="stylesheet" href="admin.css?v=20261102"><script src="channel-store.js?v=20261102" defer></script><script src="settings.js?v=20261102" defer></script></head>
+<body><main>
+<header><div><span class="eyebrow">ALPICA TV</span><h1>Ayarlar</h1></div><a href="index.html">Oynatıcıya dön →</a></header>
+<p class="intro">Oynatıcının kanalları hangi listeden alacağını seç.</p>
+<section class="panel settings-panel">
+<h2>Kanal listesi kaynağı</h2><p id="activeSource" class="source-summary" aria-live="polite"></p>
+<form id="sourceForm">
+<label for="sourceUrl">M3U veya JSON liste adresi</label>
+<input id="sourceUrl" name="sourceUrl" type="url" required inputmode="url" autocapitalize="none" spellcheck="false" autocomplete="off" placeholder="https://sunucu.example/liste.m3u" aria-describedby="sourceHelp">
+<small id="sourceHelp">Doğrudan M3U / JSON dosyası veya bu listeyi döndüren PHP adresi gir. GitHub dosya bağlantıları da kullanılabilir.</small>
+<div class="actions"><button type="submit" name="action" value="test" class="secondary">Bağlantıyı kontrol et</button><button type="submit" name="action" value="save">Kaydet ve kullan</button><button type="submit" name="action" value="watch">Kaydet ve izle</button></div>
+</form>
+<div class="actions settings-tools"><button id="exampleSource" type="button" class="secondary">Verdiğim örnek adresi doldur</button><button id="githubSource" type="button" class="secondary">GitHub listesine dön</button></div>
+<p class="muted">Bu ayar yalnızca bu tarayıcıda geçerlidir. GitHub dosyalarını veya başka cihazların ayarlarını değiştirmez. Yerel olarak eklediğin kanallar silinmez.</p>
+</section>
+<section class="panel settings-panel"><h2>Liste ile yayın adresi farklıdır</h2><p>Buraya kanal listesinin adresini gir. Tek bir kanalın M3U8 yayınını <a href="admin.html">Kanal yönetimi</a> sayfasından ekleyebilirsin.</p><p class="muted">Sunucunun tarayıcı erişimine (CORS) izin vermesi gerekir. HTTPS sayfada HTTP’ye yönlendirilen listeler veya yayınlar engellenebilir. Kaynak adresini değiştirmek bu engelleri kaldırmaz.</p></section>
+<p id="message" role="status" aria-live="polite"></p>
+</main></body></html>

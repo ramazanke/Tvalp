@@ -2,7 +2,7 @@
 const $ = id => document.getElementById(id);
 let data = { version: 1, channels: [] }, editing = -1;
 function message(text) { $('message').textContent = text; }
-function source(local) { $('source').textContent = local ? 'Kaynak: Bu tarayıcıdaki yerel liste. Diğer cihazlar için JSON dosyasını GitHub’a yükle.' : 'Kaynak: GitHub’da yayınlanan channels.json'; }
+function source(local) { const selected=ChannelStore.describe(); $('source').textContent=selected.mode==='remote'?'Kaynak: Ayarlarda seçilen uzak liste. Düzenlersen bu tarayıcıda yerel listeye geçilir.':local?'Kaynak: Bu tarayıcıdaki yerel liste. Diğer cihazlar için JSON dosyasını GitHub’a yükle.':'Kaynak: GitHub’da yayınlanan channels.json'; }
 let editedSinceLoad = false;
 function commit(next) { editedSinceLoad = true; data = ChannelStore.save(next); source(true); render(); }
 function clearForm() { editing = -1; $('form').reset(); $('formTitle').textContent = 'Kanal ekle'; $('submit').textContent = 'Bu tarayıcıya kaydet'; $('cancel').hidden = true; }

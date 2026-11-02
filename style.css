@@ -34,3 +34,5 @@ video{display:block}body.cinema header,body.cinema footer,body.cinema #categoryL
   #touchControls{gap:3px;padding:5px}
   #touchControls button{padding:9px 7px;font-size:12px}
 }
+
+.settings-link{display:block;margin:0 0 18px;padding:12px 14px;color:#42e6bf;text-decoration:none;border:1px solid #ffffff25;border-radius:10px;font-size:15px}.settings-link:focus-visible{outline:3px solid #42e6bf}
