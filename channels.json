@@ -103,10 +103,28 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/NTV_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Haber"
     },
+        {
+      "name": "SOZCU TV",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=960578312",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/e/ed/SZC_TV_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "group": "Haber"
+    },
     {
       "name": "TRT BELGESEL",
       "url": "https://tv-trtbelgesel.medya.trt.com.tr/master_1080.m3u8",
       "logo": "https://app.medyaviyana.com/uploadOrjinal/1694970640_trt-belgesel-logo.png",
+      "group": "Belgesel"
+    },
+        {
+      "name": "Bein IZ",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1691223078",
+      "logo": "https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-iz-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3",
+      "group": "Belgesel"
+    },
+            {
+      "name": "NATIONAL GEOGRAPHIC",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1078355325",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/National-Geographic-Logo.svg/1280px-National-Geographic-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
       "group": "Belgesel"
     },
     {
@@ -149,6 +167,18 @@
       "name": "TRT SPOR",
       "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c4/TRT_Spor_kurumsal_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "group": "Spor"
+    },
+        {
+      "name": "S Sports",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2123273598",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/8/82/S_Sport_logo.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "group": "Spor"
+    },
+            {
+      "name": "S Sports 2",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=936908274",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/e/ed/S_Sport_2_logo.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Spor"
     },
     {
@@ -258,5 +288,232 @@
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
       "logo": "https://i.postimg.cc/xCrVRXnZ/logo.png",
       "group": "Spor"
-    }]
+    },  {
+    "name": "BEST AKSIYON (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4008602928",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST ANIMASYON (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1822425118",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST BILIMKURGU (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1566323467",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST DRAM (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4099015608",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST HABABAM SINIFI (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=422848187",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST IMBD (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1967516305",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST KOMEDI (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1723326598",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST KORKU (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2298271695",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST LOCA 1 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1063857052",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST LOCA 2 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2026459468",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST LOCA 3 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1168734460",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST NETFLIX (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3531727990",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST SALON 1 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2585357317",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST SALON 2 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3719894741",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST SALON 3 (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3772333925",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST SAVAS (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1358616385",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEST TURK (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1196198280",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BBC EARTH (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2618455562",
+    "logo": "",
+    "group": "Belgesel"
+  },
+  {
+    "name": "BBC EARTH HD (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2228496856",
+    "logo": "",
+    "group": "Belgesel"
+  },
+  {
+    "name": "BEIN 1 FEED (720P) (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1363827223",
+    "logo": "",
+    "group": "Spor"
+  },
+  {
+    "name": "BEIN 1 SD (360P) (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3692337241",
+    "logo": "",
+    "group": "Spor"
+  },
+  {
+    "name": "BEIN 1 SD (480P) (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2919229346",
+    "logo": "",
+    "group": "Spor"
+  },
+  {
+    "name": "BEIN BOX OFFICE 1 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2930746102",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN BOX OFFICE 2 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3910129702",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN GURME (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3617035414",
+    "logo": "",
+    "group": "Yaşam"
+  },
+  {
+    "name": "BEIN GURME HD (1)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=950394656",
+    "logo": "",
+    "group": "Yaşam"
+  },
+  {
+    "name": "BEIN IZ (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1691223078",
+    "logo": "",
+    "group": "Belgesel"
+  },
+  {
+    "name": "BEIN MOVIES ACTION (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1873478131",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN MOVIES ACTION 2 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2617318386",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN MOVIES FAMILY (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2485199152",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN MOVIES PREMIERE (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=942987224",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN MOVIES PREMIERE 2 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2244069093",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN MOVIES TURK (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3390575948",
+    "logo": "",
+    "group": "Film"
+  },
+  {
+    "name": "BEIN SERIES 1 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2190922298",
+    "logo": "",
+    "group": "Dizi"
+  },
+  {
+    "name": "BEIN SERIES 2 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3308693738",
+    "logo": "",
+    "group": "Dizi"
+  },
+  {
+    "name": "BEIN SERIES 3 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4166418778",
+    "logo": "",
+    "group": "Dizi"
+  },
+  {
+    "name": "BEIN SERIES 4 (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1249271114",
+    "logo": "",
+    "group": "Dizi"
+  },
+  {
+    "name": "BEIN SERIES DRAMA (6)",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3413672103",
+    "logo": "",
+    "group": "Dizi"
+  }]
 }
