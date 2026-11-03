@@ -87,7 +87,7 @@
     },
     {
       "name": "A HABER",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1596095882",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Haber"
     },
@@ -214,6 +214,12 @@
         {
       "name": "beIN SPORTS 1 Hd",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2919229346",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "group": "Spor"
+    },
+            {
+      "name": "beIN SPORTS 1 720",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3840475653",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "group": "Spor"
     },
