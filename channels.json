@@ -16,49 +16,49 @@
     {
       "name": "SHOW TV",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2485009235",
-      "logo": "https://assets.uzunmuhalefet.com/logos/49ce7689-87c7-4a06-80a7-f5cdf9a19481.png",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Show_TV_logo.svg/3840px-Show_TV_logo.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "group": "Ulusal"
     },
     {
       "name": "KANAL D",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=387232860",
-      "logo": "https://assets.uzunmuhalefet.com/logos/e540b948-8fba-4163-ac65-1d4e8f8bf1bc.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/archive/4/4e/20240406161353%21Kanal_D.png",
       "group": "Ulusal"
     },
     {
       "name": "STAR TV",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2720556692",
-      "logo": "https://assets.uzunmuhalefet.com/logos/8bd73113-9389-419a-9341-55c3e82469b5.png",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Logo_Star_TV_%282011-2017%29.svg/960px-Logo_Star_TV_%282011-2017%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "group": "Ulusal"
     },
     {
       "name": "NOW TV",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=161305206",
-      "logo": "https://assets.uzunmuhalefet.com/logos/e540b948-8fba-4163-ac65-1d4e8f8bf1bc.png",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/960px-NOW_TV_%28Turkey%29_wordmark-red.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
       "group": "Ulusal"
     },
     {
       "name": "TV8",
       "url": "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8sx8v82ropt3&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
-      "logo": "https://assets.uzunmuhalefet.com/logos/8a33c746-0aff-44e0-9f1a-1bb3515de3ad.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Ulusal"
     },
     {
       "name": "BEYAZ TV",
       "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8",
-      "logo": "https://i.postimg.cc/Hx0FGv5V/Beyaz-tv-tr.webp",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/8/8d/Beyaz_TV_logo.jpeg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Ulusal"
     },
     {
       "name": "KANAL 7",
       "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
-      "logo": "https://i.postimg.cc/X7gNKxzY/367-3675294-kanal-7-avrupa-logo-hd-png-download-removebg-preview.png",
+      "logo": "https://turkey.mom-rsf.org/uploads/_processed_/e/7/csm_241-101_import_d773c9bbb4.png",
       "group": "Ulusal"
     },
     {
       "name": "TV2",
       "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/a/ae/Tv2_logo_%282026%29.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Ulusal"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "HABERTURK",
       "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbdYrkFRoiGI94t8EsEVSrSDLEF4vrXHSyR99Ock-cQ&s",
       "group": "Haber"
     },
     {
