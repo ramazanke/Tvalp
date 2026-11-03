@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   const KEY = 'alpica.channels.v1';
+  const CACHE_KEY = 'alpica.github-cache.v1';
   const SOURCE_KEY = 'alpica.source.v1';
   const LIMIT = 5 * 1024 * 1024;
   const ROOT = new URL('.', location.href).href;
@@ -14,7 +15,8 @@
     if (!data || !Array.isArray(data.channels)) throw new Error('Geçersiz kanal dosyası: channels listesi bulunamadı.');
     return {version:1, channels:data.channels.map(c => {
       if (!c || typeof c.name !== 'string' || !c.name.trim()) throw new Error('Kanal adı boş olamaz.');
-      return {name:c.name.trim(), url:url(c.url, false, base), logo:url(c.logo || '', true, base),
+      let logo = ''; try { logo = url(c.logo || '', true, base); } catch {}
+      return {name:c.name.trim(), url:url(c.url, false, base), logo,
         group:typeof c.group === 'string' && c.group.trim() ? c.group.trim() : 'Ulusal'};
     })};
   }
@@ -126,10 +128,23 @@
     return result;
   }
   async function githubList() {
-    const response=await requestText(new URL('channels.json',ROOT).href);
-    let data;
-    try {data=JSON.parse(response.text);} catch {throw new Error('GitHub channels.json dosyası okunamadı.');}
-    return {...validate(data,response.base),source:'github',local:false,stale:false};
+    const addresses = [new URL('channels.json',ROOT).href,
+      'https://raw.githubusercontent.com/ramazanke/Tvalp/main/channels.json'];
+    let failure;
+    for (const address of [...new Set(addresses)]) {
+      try {
+        const response = await requestText(address);
+        const valid = validate(JSON.parse(response.text), response.base);
+        if (!valid.channels.length) throw new Error('Kanal listesi boş.');
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify(valid)); } catch {}
+        return {...valid, source:'github', local:false, stale:false};
+      } catch (error) { failure = error; }
+    }
+    try {
+      const cached = validate(JSON.parse(localStorage.getItem(CACHE_KEY)));
+      if (cached.channels.length) return {...cached, source:'github', local:false, stale:true, warning:failure.message};
+    } catch {}
+    throw failure;
   }
   async function useGitHub() {
     const result=await githubList();
@@ -154,7 +169,10 @@
     if (selected?.mode !== 'github') {
       let local;
       try {local=localStorage.getItem(KEY);}catch{}
-      if(local!==null && local!==undefined)return {...validate(JSON.parse(local)),source:'local',local:true,stale:false};
+      if(local!==null && local!==undefined) {
+        try { return {...validate(JSON.parse(local)),source:'local',local:true,stale:false}; }
+        catch { /* A damaged local list must not block the default list. */ }
+      }
     }
     return githubList();
   }
