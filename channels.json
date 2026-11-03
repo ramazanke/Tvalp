@@ -81,7 +81,7 @@
     },
     {
       "name": "CNN TURK",
-      "url": "https://live.duhnet.tv//S2/HLS_LIVE/cnnturknp/track_2_550/playlist.m3u8?&live=true&app=com.cnnturk&st=htljvbPX2R8vvfAY-YUYEw&e=1791036999",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4273153967",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6unNPBtURPBNJ8Sv_hMQtU9qdiAuAa7QEtTeBmKU9Lw&s",
       "group": "Haber"
     },
@@ -113,6 +113,30 @@
       "name": "TRT COCUK",
       "url": "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8",
       "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+      "group": "Çocuk"
+    },
+        {
+      "name": "COCUK 1",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=204606561",
+      "logo": "",
+      "group": "Çocuk"
+    },
+            {
+      "name": "COCUK 2",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2193427330",
+      "logo": "",
+      "group": "Çocuk"
+    },
+                {
+      "name": "COCUK 3",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1310133020",
+      "logo": "",
+      "group": "Çocuk"
+    },
+                    {
+      "name": "Minika COCUK",
+      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3036231687",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/MinikaGO.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
       "group": "Çocuk"
     },
     {
@@ -167,7 +191,7 @@
       "name": "TV8.5",
       "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
       "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1f/TV8.5_Logosu.png/revision/latest?cb=20170827103605",
-      "group": "Spor"
+      "group": "Ulusal"
     },
     {
       "name": "TRT 2",
