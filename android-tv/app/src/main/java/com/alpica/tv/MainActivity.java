@@ -46,6 +46,8 @@ import org.json.JSONObject;
 @UnstableApi
 public final class MainActivity extends Activity {
     private static final String SITE = "https://ramazanke.github.io/Tvalp/";
+    private static final MediaItem.LiveConfiguration LIVE_CONFIG =
+            new MediaItem.LiveConfiguration.Builder().setTargetOffsetMs(10_000).build();
     private static final String ORIGIN = "https://ramazanke.github.io";
     private final Handler handler = new Handler(Looper.getMainLooper());
     private WebView web;
@@ -100,6 +102,7 @@ public final class MainActivity extends Activity {
                     retries = 0;
                     notifySite("buffering", "Yayın HLS olarak yeniden açılıyor…");
                     player.setMediaItem(new MediaItem.Builder().setUri(activeStreamUri)
+                            .setLiveConfiguration(LIVE_CONFIG)
                             .setMimeType(MimeTypes.APPLICATION_M3U8).build());
                     player.prepare();
                     player.setPlayWhenReady(started);
@@ -213,7 +216,7 @@ public final class MainActivity extends Activity {
                 activeStreamUri = uri;
                 hlsFallbackTried = false;
                 retries = 0;
-                MediaItem.Builder item = new MediaItem.Builder().setUri(uri);
+                MediaItem.Builder item = new MediaItem.Builder().setUri(uri).setLiveConfiguration(LIVE_CONFIG);
                 String path = uri.getPath() == null ? "" : uri.getPath().toLowerCase(java.util.Locale.ROOT);
                 if (path.endsWith(".m3u8")) item.setMimeType(MimeTypes.APPLICATION_M3U8);
                 else if (path.endsWith(".mpd")) item.setMimeType(MimeTypes.APPLICATION_MPD);
