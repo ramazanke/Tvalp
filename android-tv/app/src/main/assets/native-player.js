@@ -38,6 +38,7 @@
       'body.alpica-tv #channelList .tv-row-logo{display:grid;place-items:center;box-sizing:border-box;padding:0;overflow:hidden}' +
       'body.alpica-tv #channelList .tv-row-logo img{display:block;box-sizing:border-box;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain;object-position:center;padding:5px;border-radius:0;background:none}' +
       'body.alpica-tv #channelList button[aria-current="true"]:not(.selected),body.alpica-tv #categoryList button[aria-current="true"]:not(.selected){border:2px solid transparent}';
+    if (isTv) style.textContent += "body.alpica-tv #channelList button{display:grid;grid-template-columns:clamp(34px,5vw,87px) minmax(0,1fr);min-width:0;overflow:hidden}body.alpica-tv #channelList .name{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere;line-height:1.2;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}body.alpica-tv #channelList .tv-row-logo{width:100%;height:clamp(26px,6vh,60px);grid-template:100% / 100%}body.alpica-tv #channelList .tv-row-logo img{padding:3px}";
     document.head.append(style);
     const info = isTv && document.getElementById('info');
     let badgeNumber, badgeLogo, badgeClock;
