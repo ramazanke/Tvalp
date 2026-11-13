@@ -38,6 +38,8 @@
       'body.alpica-tv #categories,body.alpica-tv #strip{bottom:20vh}' +
       'body.alpica-tv #tvChannelBar{position:fixed;left:3vw;right:3vw;bottom:3vh;height:14vh;display:flex;justify-content:center;align-items:center;gap:1vw;padding:1vh 2vw;border-radius:14px;background:#102741c9;z-index:6;pointer-events:none}' +
       'body.alpica-tv #tvChannelBar span{display:grid;place-items:center;width:10vw;height:9vh;padding:4px;border:2px solid transparent;border-radius:9px;color:#fff;text-align:center;font-size:clamp(11px,1.2vw,21px);overflow:hidden}' +
+      'body.alpica-tv #channelList .tv-row-logo img{width:100%;height:100%;padding:0;background:none}' +
+      'body.alpica-tv #channelList button[aria-current="true"]:not(.selected),body.alpica-tv #categoryList button[aria-current="true"]:not(.selected){border:2px solid transparent}' +
       'body.alpica-tv #tvChannelBar .selected{border-color:#fff;background:#ffffff24}' +
       'body.alpica-tv #tvChannelBar img{width:100%;height:6vh;object-fit:contain}';
     document.head.append(style);
@@ -56,50 +58,94 @@
       bar.id = 'tvChannelBar';
       bar.hidden = true;
       document.body.append(bar);
-      const originalRender = renderMenu;
+      const groupList = document.getElementById('categoryList');
+      const channelList = document.getElementById('channelList');
       const originalClose = closeMenu;
+      let renderedGroups, renderedChannels, barChannels, barStart = 0;
       closeMenu = function () {
         originalClose();
         bar.hidden = true;
       };
+      function addLogo(container, channel, fallback) {
+        container.textContent = fallback;
+        if (!channel.logo) return;
+        const image = document.createElement('img');
+        image.alt = '';
+        image.onload = () => container.replaceChildren(image);
+        image.src = channel.logo;
+      }
+      function buildRows(list, items, type) {
+        list.replaceChildren();
+        items.forEach((item, index) => {
+          const row = document.createElement('button');
+          row.type = 'button';
+          row.setAttribute('aria-label', item.name);
+          const name = document.createElement('span');
+          name.textContent = item.name;
+          if (type === 'channels') {
+            const logo = document.createElement('span');
+            logo.className = 'initials tv-row-logo';
+            addLogo(logo, item, item.name.slice(0, 2).toLocaleUpperCase('tr-TR'));
+            name.className = 'name';
+            name.dataset.number = String(index + 1);
+            row.append(logo, name);
+          } else {
+            const count = document.createElement('span');
+            count.textContent = String(item.channels.length);
+            row.append(name, count);
+          }
+          row.onclick = () => {
+            menu = type;
+            cursor = index;
+            select();
+          };
+          list.append(row);
+        });
+        list.scrollTop = 0;
+      }
+      function highlight(list, index, current) {
+        Array.from(list.children).forEach((row, position) => {
+          row.classList.toggle('selected', position === index);
+          const value = String(position === current);
+          if (row.getAttribute('aria-current') !== value) row.setAttribute('aria-current', value);
+        });
+        const selected = list.children[index];
+        if (!selected) return;
+        const viewport = list.getBoundingClientRect();
+        const row = selected.getBoundingClientRect();
+        if (row.top < viewport.top) list.scrollTop += row.top - viewport.top;
+        else if (row.bottom > viewport.bottom) list.scrollTop += row.bottom - viewport.bottom;
+      }
       renderMenu = function () {
-        const activeMenu = menu;
-        const activeCursor = cursor;
-        const previewGroup = activeMenu === 'categories' ? activeCursor : groupIndex;
+        const previewGroup = menu === 'categories' ? cursor : groupIndex;
         const previewChannels = groups[previewGroup].channels;
-        const previewChannel = activeMenu === 'channels' ? activeCursor : previewGroup === groupIndex ? channelIndex : 0;
-        const playingGroup = groupIndex;
-        try {
-          menu = 'categories';
-          cursor = previewGroup;
-          originalRender();
-          menu = 'channels';
-          groupIndex = previewGroup;
-          cursor = previewChannel;
-          originalRender();
-        } finally {
-          groupIndex = playingGroup;
-          menu = activeMenu;
-          cursor = activeCursor;
-        }
+        const previewChannel = menu === 'channels' ? cursor : previewGroup === groupIndex ? channelIndex : 0;
         document.getElementById('categories').hidden = false;
         document.getElementById('strip').hidden = false;
-        document.querySelectorAll('#channelList .name').forEach((label, index) => {
-          label.dataset.number = String(index + 1);
-        });
-        const first = Math.max(0, Math.min(previewChannel - 3, previewChannels.length - 7));
-        bar.replaceChildren();
-        previewChannels.slice(first, first + 7).forEach((channel, index) => {
-          const tile = document.createElement('span');
-          tile.textContent = channel.name;
-          tile.classList.toggle('selected', first + index === previewChannel);
-          if (channel.logo) {
-            const logo = document.createElement('img');
-            logo.alt = channel.name;
-            logo.onload = () => tile.replaceChildren(logo);
-            logo.src = channel.logo;
-          }
-          bar.append(tile);
+        document.getElementById('stripTitle').textContent = groups[previewGroup].name;
+        if (renderedGroups !== groups) {
+          buildRows(groupList, groups, 'categories');
+          renderedGroups = groups;
+        }
+        if (renderedChannels !== previewChannels) {
+          buildRows(channelList, previewChannels, 'channels');
+          renderedChannels = previewChannels;
+        }
+        highlight(groupList, previewGroup, groupIndex);
+        highlight(channelList, previewChannel, previewGroup === groupIndex ? channelIndex : -1);
+        if (barChannels !== previewChannels || previewChannel < barStart || previewChannel >= barStart + 7) {
+          barChannels = previewChannels;
+          barStart = Math.floor(previewChannel / 7) * 7;
+          bar.replaceChildren();
+          previewChannels.slice(barStart, barStart + 7).forEach(channel => {
+            const tile = document.createElement('span');
+            tile.setAttribute('aria-label', channel.name);
+            addLogo(tile, channel, channel.name);
+            bar.append(tile);
+          });
+        }
+        Array.from(bar.children).forEach((tile, index) => {
+          tile.classList.toggle('selected', barStart + index === previewChannel);
         });
         bar.hidden = false;
       };
