@@ -172,6 +172,18 @@
       key(key) {
         if (key === 'Enter' && number) { clearTimeout(numberTimer); commitNumber(); return; }
         if (number) { clearTimeout(numberTimer); number = ''; }
+        if (isTv && channels().length) {
+          if (key === 'ArrowLeft') { showMenu('categories'); return; }
+          if (key === 'ArrowRight') { showMenu('channels'); return; }
+          if (!menu && key === 'Enter') { showMenu('categories'); return; }
+          if (!menu && (key === 'ArrowUp' || key === 'ArrowDown')) {
+            const step = key === 'ArrowUp' ? 1 : -1;
+            const count = channels().length;
+            channelIndex = (channelIndex + step + count) % count;
+            play();
+            return;
+          }
+        }
         document.dispatchEvent(new KeyboardEvent('keydown', { key, bubbles: true, cancelable: true }));
       },
       digit(value) {
