@@ -120,8 +120,9 @@
         const previewGroup = menu === 'categories' ? cursor : groupIndex;
         const previewChannels = groups[previewGroup].channels;
         const previewChannel = menu === 'channels' ? cursor : previewGroup === groupIndex ? channelIndex : 0;
-        document.getElementById('categories').hidden = false;
-        document.getElementById('strip').hidden = false;
+        const browsingChannels = menu === 'channels';
+        document.getElementById('categories').hidden = browsingChannels;
+        document.getElementById('strip').hidden = !browsingChannels;
         document.getElementById('stripTitle').textContent = groups[previewGroup].name;
         if (renderedGroups !== groups) {
           buildRows(groupList, groups, 'categories');
@@ -147,7 +148,7 @@
         Array.from(bar.children).forEach((tile, index) => {
           tile.classList.toggle('selected', barStart + index === previewChannel);
         });
-        bar.hidden = false;
+        bar.hidden = !browsingChannels;
       };
     }
     const htmlVideo = document.getElementById('video');
