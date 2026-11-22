@@ -2,518 +2,820 @@
   "version": 1,
   "channels": [
     {
+      "name": "Çoklu Ekran Ulusal",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/496645",
+      "logo": "https://i.imgur.com/FjWQjdy.png",
+      "group": "Ulusal"
+    },
+    {
       "name": "TRT 1",
-      "url": "https://sultanios.alwaysdata.net/vavo.php?ID=1221669131",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjipzNxq9YQaI3C6Q-x7z8bGFFrAdLZl6qStPIZXPKig&s",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475358",
+      "logo": "https://i.ibb.co/jPM5WHsv/42.png",
       "group": "Ulusal"
     },
     {
       "name": "ATV",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1332310706",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Atv_logo_2010.svg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475360",
+      "logo": "https://i.ibb.co/0j51Lhgc/45.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Kanal D",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475362",
+      "logo": "https://i.ibb.co/jPzDwCKk/48.png",
       "group": "Ulusal"
     },
     {
       "name": "SHOW TV",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2485009235",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Show_TV_logo.svg/3840px-Show_TV_logo.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475364",
+      "logo": "https://i.ibb.co/4nBLQkms/47.png",
       "group": "Ulusal"
     },
     {
-      "name": "KANAL D",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4193250917",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/archive/4/4e/20240406161353%21Kanal_D.png",
+      "name": "Star TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475366",
+      "logo": "https://i.ibb.co/zWjWgykz/46.png",
       "group": "Ulusal"
     },
     {
-      "name": "STAR TV",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2720556692",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Logo_Star_TV_%282011-2017%29.svg/960px-Logo_Star_TV_%282011-2017%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-      "group": "Ulusal"
-    },
-    {
-      "name": "NOW TV",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=161305206",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/NOW_TV_%28Turkey%29_wordmark-red.svg/960px-NOW_TV_%28Turkey%29_wordmark-red.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+      "name": "NOW",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475368",
+      "logo": "https://i.ibb.co/q30WGxwm/49.png",
       "group": "Ulusal"
     },
     {
       "name": "TV8",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2693299013",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475370",
+      "logo": "https://i.ibb.co/39L3kdsN/UoqzPGz.png",
       "group": "Ulusal"
     },
     {
-      "name": "BEYAZ TV",
-      "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/8/8d/Beyaz_TV_logo.jpeg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "name": "TV 8.5",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475372",
+      "logo": "https://i.ibb.co/BpDKVdG/22.png",
       "group": "Ulusal"
     },
     {
-      "name": "KANAL 7",
-      "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
-      "logo": "https://turkey.mom-rsf.org/uploads/_processed_/e/7/csm_241-101_import_d773c9bbb4.png",
-      "group": "Ulusal"
-    },
-    {
-      "name": "TV2",
-      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/a/ae/Tv2_logo_%282026%29.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "name": "Beyaz TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475374",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png",
       "group": "Ulusal"
     },
     {
       "name": "360 TV",
-      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
-      "logo": "https://i.imgur.com/agn47sQ.png",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475376",
+      "logo": "https://i.ibb.co/GQ7tf1Gv/53.png",
       "group": "Ulusal"
-    },
-    {
-      "name": "HABERTURK",
-      "url": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbdYrkFRoiGI94t8EsEVSrSDLEF4vrXHSyR99Ock-cQ&s",
-      "group": "Haber"
-    },
-    {
-      "name": "TRT HABER",
-      "url": "https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://play-lh.googleusercontent.com/b5VZGo1h1TUQMFkf-bkjT5gudh82TZErpVndci3AjKEuzzrY5GJIqE8t4IcA2Cc1roBvhQqyJ0a6GH0nEmQ-aFE",
-      "group": "Haber"
-    },
-    {
-      "name": "CNN TURK",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4273153967",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6unNPBtURPBNJ8Sv_hMQtU9qdiAuAa7QEtTeBmKU9Lw&s",
-      "group": "Haber"
-    },
-    {
-      "name": "A HABER",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1596095882",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Haber"
     },
     {
       "name": "A2",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/e/e8/A2_logosu.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475378",
+      "logo": "https://i.ibb.co/wj2wXdc/30.png",
       "group": "Ulusal"
     },
     {
-      "name": "NTV",
-      "url": "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b5/NTV_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Haber"
-    },
-        {
-      "name": "SOZCU TV",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=960578312",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/e/ed/SZC_TV_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Haber"
-    },
-    {
-      "name": "TRT BELGESEL",
-      "url": "https://tv-trtbelgesel.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://app.medyaviyana.com/uploadOrjinal/1694970640_trt-belgesel-logo.png",
-      "group": "Belgesel"
-    },
-        {
-      "name": "Bein IZ",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1691223078",
-      "logo": "https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bein-iz-hd-buyuk.png?rkt=DfS6Tgv6Hjr93k3",
-      "group": "Belgesel"
-    },
-            {
-      "name": "NATIONAL GEOGRAPHIC",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1078355325",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/National-Geographic-Logo.svg/1280px-National-Geographic-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-      "group": "Belgesel"
-    },
-    {
-      "name": "TRT COCUK",
-      "url": "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-      "group": "Çocuk"
-    },
-        {
-      "name": "COCUK 1",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=204606561",
-      "logo": "",
-      "group": "Çocuk"
-    },
-            {
-      "name": "COCUK 2",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2193427330",
-      "logo": "",
-      "group": "Çocuk"
-    },
-                {
-      "name": "COCUK 3",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1310133020",
-      "logo": "",
-      "group": "Çocuk"
-    },
-                    {
-      "name": "Minika COCUK",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3036231687",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/MinikaGO.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Çocuk"
-    },
-    {
-      "name": "TRT TURK",
-      "url": "https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/TRT_T%C3%BCrk_logosu.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "name": "TV2",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475380",
+      "logo": "https://static.epg.best/tr/TV2.tr.png",
       "group": "Ulusal"
     },
     {
-      "name": "TRT SPOR",
-      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c4/TRT_Spor_kurumsal_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Spor"
-    },
-        {
-      "name": "S Sports",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2123273598",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/8/82/S_Sport_logo.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Spor"
-    },
-            {
-      "name": "S Sports 2",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=936908274",
-      "logo": "https://upload.wikimedia.org/wikipedia/tr/e/ed/S_Sport_2_logo.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Spor"
-    },
-    {
-      "name": "SPOR YILDIZ",
-      "url": "https://tv-trtspor2.medya.trt.com.tr/master_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Spor"
-    },
-    {
-      "name": "TRT GENC",
-      "url": "https://tv-trtgenc.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://www.trt.net.tr/_nuxt/img/trt-genc.fce0279.png",
+      "name": "Kanal 7",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475382",
+      "logo": "https://i.ibb.co/NgfvVRfL/24.png",
       "group": "Ulusal"
     },
     {
-      "name": "TRT TABI",
-      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Trt-tabii-logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "group": "Ulusal"
-    },
-    {
-      "name": "HALK TV",
-      "url": "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Halk_TV_logo.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Haber"
-    },
-    {
-      "name": "TV4",
-      "url": "https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8",
-      "logo": "https://imgs.turkmedya.com.tr/gorseller/YazarFotos/manset/30-10-2023-43-11-09-tv4-mansetslider%20(2).png",
-      "group": "Ulusal"
-    },
-    {
-      "name": "TGRT HABER",
-      "url": "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2t5ImCyMFP9SWfylr8O6p2Zs0liQFkFZI4pgqs2wGA&s=10",
-      "group": "Haber"
-    },
-    {
-      "name": "TV8.5",
-      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
-      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1f/TV8.5_Logosu.png/revision/latest?cb=20170827103605",
+      "name": "Tabii TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475386",
+      "logo": "https://i.ibb.co/kV2DTDkW/tabiitv.png",
       "group": "Ulusal"
     },
     {
       "name": "TRT 2",
-      "url": "https://tv-trt2.medya.trt.com.tr/master_1080.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/TRT_2_logo.svg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475387",
+      "logo": "https://i.ibb.co/XZ6FM1Rv/6.png",
       "group": "Ulusal"
     },
     {
-      "name": "NR1 TURK",
-      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/chunklist_b400000.m3u8",
-      "logo": "https://i.postimg.cc/9QF88tcF/Ih-N3v0s7-400x400-removebg-preview.png",
-      "group": "Müzik"
+      "name": "TRT 4K",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475389",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-4k-tr.png",
+      "group": "Ulusal"
     },
     {
-      "name": "BLOMBER TV",
-      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Bloomberg_HT_logo.svg/3840px-Bloomberg_HT_logo.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-      "group": "Haber"
+      "name": "TRT Arabi",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475390",
+      "logo": "https://i.ibb.co/yccCLL5D/TRT-WORLD.png",
+      "group": "Ulusal"
     },
     {
-      "name": "BENGU TURK",
-      "url": "https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8",
-      "logo": "",
-      "group": "Haber"
+      "name": "TRT AVAZ",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475392",
+      "logo": "https://i.ibb.co/Dmbh80d/TRT-AVAZ.png",
+      "group": "Ulusal"
     },
     {
-      "name": "ULKE TV",
-      "url": "https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%C3%9Clke_TV_logo.svg/3840px-%C3%9Clke_TV_logo.svg.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-      "group": "Haber"
+      "name": "TRT Kurdi",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475394",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-kurdi-tr.png",
+      "group": "Ulusal"
     },
     {
-      "name": "24 HD",
-      "url": "https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8",
-      "logo": "https://i.postimg.cc/d3rm3Dvg/20191109190807-24-TV-logosu.png",
-      "group": "Haber"
+      "name": "TRT TURK",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475396",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-turk-tr.png",
+      "group": "Ulusal"
     },
     {
-      "name": "beIN SPORTS 1",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=593493860",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "name": "TRT GENC",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475398",
+      "logo": "https://placehold.co/500x500/1F2937/F3F4F6/png?text=TRT%20GENC&font=montserrat",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TRT 3 TBMM",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475399",
+      "logo": "https://placehold.co/512x512/1e824c/ffffff/png?text=TRT%203%20TBMM%20HD",
+      "group": "Ulusal"
+    },
+    {
+      "name": "SHOW TURK",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475400",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-turk-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TV8 INT",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475402",
+      "logo": "https://i.ibb.co/5XScdBVV/61.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TYT TÜRK",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475406",
+      "logo": "https://placehold.co/500x500/1F2937/F3F4F6/png?text=TYT%20T%C3%9CRK%20HD&font=montserrat",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Bengütürk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475407",
+      "logo": "https://i.imgur.com/p3ON1oX.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Ekoturk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475408",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ekoturk-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Showmax",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475410",
+      "logo": "https://i.ibb.co/nN2R06Lh/38.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Ülke TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475419",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ulke-tv-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Kanal D Euro",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475423",
+      "logo": "https://i.ibb.co/0jCZh7kG/48.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Show TV Euro",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475424",
+      "logo": "https://i.ibb.co/QjpDxPqW/40.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "ATV Euro",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475425",
+      "logo": "https://i.ibb.co/4n59MQCC/58.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Star Euro",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475426",
+      "logo": "https://i.ibb.co/DHC2tTC9/12.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "ATV AZ",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475433",
+      "logo": "https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Kanal 7 Avrupa",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475434",
+      "logo": "https://i.ibb.co/5gz9cGqR/33.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "TGRT EU",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475436",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tgrt-eu-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EBA TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475437",
+      "logo": "https://i.ibb.co/9mntp4Xj/70.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EBA TV Ortaokul",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475438",
+      "logo": "https://i.ibb.co/LXSb3kps/70.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EBA TV İlkokul",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475439",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/eba-tv-ilkokul-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "EBA TV Lise",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/475440",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/eba-tv-lise-tr.png",
+      "group": "Ulusal"
+    },
+    {
+      "name": "Çoklu Ekran Spor",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/483896",
+      "logo": "https://i.imgur.com/FjWQjdy.png",
       "group": "Spor"
     },
-        {
-      "name": "beIN SPORTS 1 Hd",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2919229346",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "group": "Spor"
-    },
-            {
-      "name": "beIN SPORTS 1 720",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3840475653",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    {
+      "name": "beIN Sports 1",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366150",
+      "logo": "https://i.imgur.com/Vtk2cGI.png",
       "group": "Spor"
     },
     {
-      "name": "beIN SPORTS 2",
-      "url": "https://ladyboy.ardastream2.cfd//bein2/tracks-v1a1/mono.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=originalnal",
+      "name": "beIN Sports 2",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366158",
+      "logo": "https://i.imgur.com/vUJZSvs.png",
       "group": "Spor"
     },
     {
-      "name": "A SPOR",
-      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
-      "logo": "https://i.postimg.cc/xCrVRXnZ/logo.png",
+      "name": "beIN Sports 3",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366160",
+      "logo": "https://i.imgur.com/UYSMao3.png",
       "group": "Spor"
-    },  {
-    "name": "BEST AKSIYON (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4008602928",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST ANIMASYON (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1822425118",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST BILIMKURGU (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1566323467",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST DRAM (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4099015608",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST HABABAM SINIFI (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=422848187",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST IMBD (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1967516305",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST KOMEDI (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1723326598",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST KORKU (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2298271695",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST LOCA 1 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1063857052",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST LOCA 2 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2026459468",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST LOCA 3 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1168734460",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST NETFLIX (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3531727990",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST SALON 1 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2585357317",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST SALON 2 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3719894741",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST SALON 3 (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3772333925",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST SAVAS (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1358616385",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEST TURK (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1196198280",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BBC EARTH (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2618455562",
-    "logo": "",
-    "group": "Belgesel"
-  },
-  {
-    "name": "BBC EARTH HD (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2228496856",
-    "logo": "",
-    "group": "Belgesel"
-  },
-  {
-    "name": "BEIN 1 FEED (720P) (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1363827223",
-    "logo": "",
-    "group": "Spor"
-  },
-  {
-    "name": "BEIN 1 SD (360P) (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3692337241",
-    "logo": "",
-    "group": "Spor"
-  },
-  {
-    "name": "BEIN 1 SD (480P) (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2919229346",
-    "logo": "",
-    "group": "Spor"
-  },
-  {
-    "name": "BEIN BOX OFFICE 1 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2930746102",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN BOX OFFICE 2 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3910129702",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN GURME (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3617035414",
-    "logo": "",
-    "group": "Yaşam"
-  },
-  {
-    "name": "BEIN GURME HD (1)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=950394656",
-    "logo": "",
-    "group": "Yaşam"
-  },
-  {
-    "name": "BEIN IZ (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1691223078",
-    "logo": "",
-    "group": "Belgesel"
-  },
-  {
-    "name": "BEIN MOVIES ACTION (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1873478131",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN MOVIES ACTION 2 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2617318386",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN MOVIES FAMILY (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2485199152",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN MOVIES PREMIERE (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=942987224",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN MOVIES PREMIERE 2 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2244069093",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN MOVIES TURK (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3390575948",
-    "logo": "",
-    "group": "Film"
-  },
-  {
-    "name": "BEIN SERIES 1 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2190922298",
-    "logo": "",
-    "group": "Dizi"
-  },
-  {
-    "name": "BEIN SERIES 2 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3308693738",
-    "logo": "",
-    "group": "Dizi"
-  },
-  {
-    "name": "BEIN SERIES 3 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4166418778",
-    "logo": "",
-    "group": "Dizi"
-  },
-  {
-    "name": "BEIN SERIES 4 (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=1249271114",
-    "logo": "",
-    "group": "Dizi"
-  },
-  {
-    "name": "BEIN SERIES DRAMA (6)",
-    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3413672103",
-    "logo": "",
-    "group": "Dizi"
-  }]
+    },
+    {
+      "name": "beIN Sports 4",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366162",
+      "logo": "https://i.imgur.com/vwAgJNi.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Sports 5",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366164",
+      "logo": "https://i.imgur.com/2Rha5aY.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Sports MAX 1",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366166",
+      "logo": "https://i.imgur.com/FjWQjdy.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Sports MAX 2",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366168",
+      "logo": "https://i.imgur.com/5dBc5rn.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Sports Haber",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/453404",
+      "logo": "https://i.imgur.com/QWo0x7S.jpg",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Connect 1",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366171",
+      "logo": "https://i.imgur.com/Vtk2cGI.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Connect 2",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366172",
+      "logo": "https://i.imgur.com/vUJZSvs.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Connect 3",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366173",
+      "logo": "https://i.imgur.com/UYSMao3.png",
+      "group": "Spor"
+    },
+    {
+      "name": "beIN Connect 4",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/366174",
+      "logo": "https://i.imgur.com/vwAgJNi.png",
+      "group": "Spor"
+    },
+    {
+      "name": "Çoklu Ekran Belgesel",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/497487",
+      "logo": "https://i.imgur.com/FjWQjdy.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "TLC",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341498",
+      "logo": "https://i.ibb.co/svmv8VDG/jxKbLRl.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Discovery Channel",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341527",
+      "logo": "https://i.ibb.co/PZMjtkhV/CJulOgw.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "National Geographic",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341523",
+      "logo": "https://i.ibb.co/nXN1BH4/NATIONAL-GEOGRAPHIC.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "National Geographic WİLD",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341524",
+      "logo": "https://i.ibb.co/27HJw3Qm/ScYbqeU.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "DMAX",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341534",
+      "logo": "https://i.ibb.co/DP5LwdX9/N5PyZ6q.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "FX",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459186",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Viasat History",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341526",
+      "logo": "https://i.ibb.co/V0QDw3LT/UaKY4bv.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Trek",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/462515",
+      "logo": "https://i.imgur.com/TcF53W4.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Animaux",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/462514",
+      "logo": "https://i.imgur.com/FM9FVAG.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Ushuaia TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/462513",
+      "logo": "https://i.imgur.com/WjjlqbP.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Viasat Nature",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/462512",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cropped-viasat-nature.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Fashion TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341499",
+      "logo": "https://i.ibb.co/6JDfYpTJ/DEBA3300022-IF-20220323-T071939-SQUARE-png-20220323071942.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "beIN İZ",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341522",
+      "logo": "https://i.ibb.co/pjXzK5hC/BEIN-IZ.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Viasat Explore",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341525",
+      "logo": "https://i.ibb.co/Kxvh3Cnx/q5fo-Cm1j-ZMex.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Tarih TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341532",
+      "logo": "https://i.ibb.co/tMBjwyRz/TARIH-TV.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "beIN Gurme",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341533",
+      "logo": "https://i.ibb.co/4gfSNnXD/qqNKQeR.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "BBC Earth",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341535",
+      "logo": "https://i.ibb.co/tPhS20G4/4uJesg4.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Investigation Discovery",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341536",
+      "logo": "https://i.ibb.co/x4kYWXv/BXHsjHJ.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "DA Vinci Learning",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341537",
+      "logo": "https://i.ibb.co/CsJcPGGf/dDiZGAy.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "DOCU Screen",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341538",
+      "logo": "https://i.ibb.co/nsHKXGSy/Wl9YJc.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "TGRT Belgesel",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341539",
+      "logo": "https://i.ibb.co/Q7xw5rZS/XpuPcAN.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Yaban TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/458504",
+      "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/3/38/Yabantv_logo.png/960px-Yabantv_logo.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Chasse & Peche",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/437172",
+      "logo": "https://i.imgur.com/ZIS2ZQ1.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "AGRO TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/458876",
+      "logo": "https://i.ibb.co/GvgNP2jh/Agro-TV-logo.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "beIN H&E",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/458983",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-h-and-e-hd-tr.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Çiftçi TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459065",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ciftci-tv-tr.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Docubox",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459116",
+      "logo": "https://i.imgur.com/pX4U9OG.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Fightbox",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459181",
+      "logo": "https://i.imgur.com/mRsnztA.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Habitat TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459213",
+      "logo": "https://placehold.co/500x500/155E75/CFFAFE/png?text=Habitat%20TV&font=montserrat",
+      "group": "Belgesel"
+    },
+    {
+      "name": "KÖY TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459361",
+      "logo": "https://i.imgur.com/RcjEHAG.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "LOVE Nature 4K English",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459389",
+      "logo": "https://placehold.co/500x500/155E75/CFFAFE/png?text=Love%20Nature%204K%20English&font=montserrat",
+      "group": "Belgesel"
+    },
+    {
+      "name": "NASA TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459452",
+      "logo": "https://placehold.co/512x512/1e824c/ffffff/png?text=%7CExyu.mkd%7C%20NASA%20TV%20HD",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Tarım TÜRK TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459923",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tarim-turk-tr.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "TRT Belgesel",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341531",
+      "logo": "https://i.ibb.co/HpMwLLs9/PCwXQcB.png",
+      "group": "Belgesel"
+    },
+    {
+      "name": "Çoklu Ekran Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/497488",
+      "logo": "https://i.imgur.com/FjWQjdy.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Tabii Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459897",
+      "logo": "https://placehold.co/500x500/14532D/DCFCE7/png?text=Tabii%20%C3%87ocuk&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "TRT Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341708",
+      "logo": "https://i.ibb.co/cX6zymfS/akVe0dn.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "TRT Diyanet Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341709",
+      "logo": "https://i.ibb.co/nqkYpDtn/kFAXxSM.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Minika GO",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341710",
+      "logo": "https://i.ibb.co/s9Fqrbwx/zMFsOfl.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Minika Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341716",
+      "logo": "https://i.ibb.co/6Rq4dd6t/Um5V5Wk.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Boomerang Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341712",
+      "logo": "https://i.ibb.co/v6jFczn5/sFjVGyM.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "BABY TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341713",
+      "logo": "https://i.ibb.co/Q7HycPNZ/M4OHe2F.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Cartoon Network",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341714",
+      "logo": "https://i.ibb.co/4R5Sj0HR/i6G3nsq.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Nickelodeon",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341715",
+      "logo": "https://i.ibb.co/HpX0Xxzb/NICKELEDON.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Moonbug KİDS",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341717",
+      "logo": "https://i.ibb.co/Wvm8PHNR/Moonbug-Kids-svg.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "DSmart Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341718",
+      "logo": "https://i.ibb.co/tMh2mMyM/srng8on.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "DUCK TV",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341720",
+      "logo": "https://i.ibb.co/sSWz678/4giBQyE.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Nick Jr",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341721",
+      "logo": "https://i.ibb.co/yBx9mnD8/Jo9HchJ.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Cbeebies",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341722",
+      "logo": "https://i.ibb.co/1Gvc11sJ/WWbYtcH.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "BBC Fırst",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/341723",
+      "logo": "https://i.ibb.co/5N3gkk7/BBC-FIRST.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Caillou",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452236",
+      "logo": "https://i.imgur.com/RgKaoe4.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Smart Çocuk",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452237",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cocuk-smart-tr.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Niloya",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452238",
+      "logo": "https://placehold.co/500x500/0F172A/E2E8F0/png?text=SL%20NILOYA&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "ENO Animasyon",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452311",
+      "logo": "https://placehold.co/500x500/0F172A/E2E8F0/png?text=ENO%20ANIMASYON&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "MAX Animasyon 1",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452345",
+      "logo": "https://placehold.co/500x500/0F172A/E2E8F0/png?text=MAX%20ANIMASYON%0A1&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "MAX Animasyon 2",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452346",
+      "logo": "https://placehold.co/500x500/0F172A/E2E8F0/png?text=MAX%20ANIMASYON%0A2&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Sünger BOB",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/452369",
+      "logo": "https://placehold.co/500x500/0F172A/E2E8F0/png?text=S%C3%9CNGER%20BOB&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Alvin VE Sincaplar",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/458898",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Alvin%20VE%20Sincaplar&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Barbie",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/458971",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Barbie&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Pijamaskeliler",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459049",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Pijamaskeliler&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Cartoonito",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459051",
+      "logo": "https://i.imgur.com/6vYWCD0.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "DA Vinci KİDS",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459093",
+      "logo": "https://placehold.co/500x500/7C2D12/FED7AA/png?text=DA%20VINCI%20KIDS&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Transformers",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459106",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Transformers&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "HOT Wheels",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459231",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=HOT%20Wheels&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Jurassic World",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459295",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Jurassic%20World&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Keloğlan Masalları",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459339",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Kelo%C4%9Flan%20Masallar%C4%B1&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Kukuli",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459373",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Kukuli&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "MAŞA İLE KOCA AYI",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459399",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=MA%C5%9EA%20%C4%B0LE%20KOCA%20AYI&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Peppa PIG",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459499",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=PEPPA%20PIG&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Adisebaba Masallari",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459500",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Adisebaba%20Masallari&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Redkit",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459743",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Redkit&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Sevimli Dostlar",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/459784",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Sevimli%20Dostlar&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Angry Birds Toons",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460090",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Angry%20Birds%20Toons&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Booba",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460124",
+      "logo": "https://placehold.co/512x512/1e824c/ffffff/png?text=PT%3A%20Booba%20HEVC%20HD",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Gabby's",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460155",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Gabby's&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Jetgiller",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460179",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Jetgiller&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "KRAL Şakir",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460198",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=KRAL%20%C5%9Eakir&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Nicktoons",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460226",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Pepee",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460237",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=Pepee&font=montserrat",
+      "group": "Çocuk"
+    },
+    {
+      "name": "Scooby-doo!",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460260",
+      "logo": "https://raw.githubusercontent.com/cytec/tvlogos/master/kika.png",
+      "group": "Çocuk"
+    },
+    {
+      "name": "TOM VE Jerry",
+      "url": "http://1066.7382164.xyz/kadmer54/34kmt054/460285",
+      "logo": "https://placehold.co/500x500/9A3412/FFEDD5/png?text=TOM%20VE%20Jerry&font=montserrat",
+      "group": "Çocuk"
+    }
+  ]
 }
